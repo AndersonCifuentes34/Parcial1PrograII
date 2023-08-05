@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #fff1a8;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="183.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true" />
+            <Label layoutX="221.0" layoutY="142.0" text="Ander35">
+               <font>
+                  <Font name="Cooper Black" size="36.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="5.0" layoutY="14.0" prefHeight="124.0" prefWidth="591.0" text="HAZ ACCEDIDO CORRECTAMENTE">
+               <font>
+                  <Font name="Cooper Black" size="30.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="175.0" fitWidth="190.0" layoutX="213.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Imagen/img_2.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
